@@ -1,5 +1,5 @@
 const StylusAsset = require('parcel-bundler/lib/assets/StylusAsset');
-const localRequire = require('../utils/localRequire');
+const localRequire = require('parcel-bundler/src/utils/localRequire');
 const {EOL} = require('os');
 
 class StylusInjectAsset extends StylusAsset {
