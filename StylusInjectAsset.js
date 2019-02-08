@@ -10,7 +10,7 @@ class StylusInjectAsset extends StylusAsset {
       code = opts.inject + EOL + code;
     }
 
-    return super(code);
+    return await super.parse(code);
   }
 }
 
