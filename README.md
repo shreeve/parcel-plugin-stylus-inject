@@ -1,1 +1,1 @@
-# parcel-plugin-stylus
+# parcel-plugin-stylus-inject
